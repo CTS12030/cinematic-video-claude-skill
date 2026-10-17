@@ -1,0 +1,6 @@
+{
+  "name": "cinematic-video-project",
+  "private": true,
+  "scripts": { "build": "esbuild src/main.js --bundle --format=iife --outfile=bundle.js --log-level=warning" },
+  "dependencies": { "three": "0.169.0", "esbuild": "0.24.0", "puppeteer-core": "22.15.0" }
+}

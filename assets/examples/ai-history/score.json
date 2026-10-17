@@ -1,0 +1,25 @@
+{
+  "progression": ["Dm","Bb","F","C"],
+  "finale": "end",
+  "scenes": {
+    "intro":  {"chords":["Dm","Bb"],"motif":[74,72,69],"transition":"none"},
+    "turing": {"chords":["Dm"],"motif":[69,74],"transition":"impact","sfx":[{"type":"click","at":[2.6,3.2,3.8,4.5,5.1,5.7,6.3,6.9,7.5,8.1]}]},
+    "enigma": {"chords":["Gm","Dm"],"transition":"impact","ostinato":{"root":43,"bpm":104},"sfx":[{"type":"click","at":[6.1,6.5,6.9,7.3,7.8,8.2,8.6,9.0,9.4,9.9,10.3,10.7,11.1]},{"type":"ticks","from":13.2,"to":23,"rate":10,"accel_from":19}]},
+    "eniac":  {"chords":["F"],"motif":[72,77]},
+    "test":   {"chords":["Am"],"motif":[76,72],"transition":"impact","sfx":[{"type":"typewriter","at":1.2,"count":70,"interval":0.066,"bell":true}]},
+    "dart":   {"chords":["F","C"],"motif":[72,76,79],"transition":"impact"},
+    "neuron": {"chords":["C"],"motif":[79,76]},
+    "winter": {"chords":["Am","Em"],"amp":0.6,"sfx":[{"type":"wind","from":0,"to":12}]},
+    "chess":  {"chords":["Dm"],"transition":"impact","ostinato":{"root":38,"bpm":96},"sfx":[{"type":"thock","at":[4.3],"freq":140},{"type":"thock","at":[7.5,7.7],"freq":220}]},
+    "vision": {"chords":["F"],"motif":[77,81]},
+    "go":     {"chords":["Bb","C"],"motif":[74,79],"ostinato":{"root":46,"bpm":92}},
+    "trans":  {"chords":["Dm","F"],"motif":[74,77,81]},
+    "chat":   {"chords":["Bb","F","C"],"motif":[77,81,84],"transition":"impact"},
+    "today":  {"chords":["F"],"motif":[77,72]},
+    "tools":  {"chords":["Dm","Bb","F","C"],"amp":1.05,"transition":"impact","ostinato":{"root":38,"bpm":90}},
+    "ask":    {"chords":["Bb"],"amp":0.8,"motif":[70,74],"arp":true},
+    "three":  {"chords":["Gm","Bb"],"motif":[70,67],"arp":true},
+    "mind":   {"chords":["F","C"],"motif":[72,77],"arp":true},
+    "end":    {"chords":["G","Dmaj9"],"motif":[78,81,86],"transition":"impact"}
+  }
+}
